@@ -226,7 +226,23 @@ div.gallery {
 	box-shadow:	8px 5px 16px 0px rgba(50, 50, 50, 0.61);
 }
 
+div.gallery2 {
+	margin: 10px;
+	border: 10px solid #32292F;
+	border-radius: 10px;
+	float: left;
+	width: 720px;
+	transition: 0.3s;
+	margin: 25px;
+	position: relative;
+	box-shadow:	8px 5px 16px 0px rgba(50, 50, 50, 0.61);
+}
+
 div.gallery:hover {
+  border: 10px solid #F7EDE2;
+}
+
+div.gallery2:hover {
   border: 10px solid #F7EDE2;
 }
 
@@ -299,6 +315,17 @@ p.ok{
 	color: #0E4075;
 	font-family: 'Dela Gothic One', cursive;
 	padding: 8px 16px;
+	transition: 0.3s;
+}
+
+.oum2{
+	text-decoration: none;
+	border-left: 0.5px solid #387FC9;
+	border-right: 0.5px solid #387FC9;
+	border-radius: 10px;
+	color: #0E4075;
+	font-family: 'Dela Gothic One', cursive;
+	padding: 4px 12px;
 	transition: 0.3s;
 }
 
